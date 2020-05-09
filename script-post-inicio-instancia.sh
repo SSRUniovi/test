@@ -17,4 +17,4 @@ sudo apt -y update
 sudo DEBIAN_FRONTEND=noninteractive apt -y install -o Dpkg::Options::="--force-confold" nginx 
 
 sudo systemctl restart nginx
-} > setup-adicional.log
+} > /tmp/setup-adicional.log
